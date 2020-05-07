@@ -1,0 +1,21 @@
+----- BEGIN CREV PROOF -----
+kind: trust
+version: -1
+date: "2020-05-08T00:35:22.167756901+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+ids:
+  - id-type: crev
+    id: krR5XC6pTwJUl9YQxPEyxbJm0HzYSiacp_Q3JS9W4UY
+    url: "https://github.com/pickfire/crev-proofs"
+trust: low
+comment: |-
+  @pickfire contributed to my project, Newsboat. He is more knowledgeable
+  about Rust than I am, but I need more time to develop trust in his overall
+  judgement.
+----- SIGN CREV PROOF -----
+-ercUI2k9Vx0yQJgv-6vmfRl5x4OlvDLIFZpPtvgT4_2QkZE6YMqIZehNgeP8k1g9cpN74DwjOkcprBdwAUlDw
+----- END CREV PROOF -----
+
