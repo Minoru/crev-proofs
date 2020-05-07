@@ -1,0 +1,27 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-05-08T01:17:13.375282238+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+package:
+  source: "https://crates.io"
+  name: errno
+  version: 0.2.5
+  revision: 78f5e5e035c5f921e36a4cd2d171edc219d64cef
+  digest: "-mh98irXQfh52czBjFViEY-qF8GtJ46CCVINwjLxGgs"
+review:
+  thoroughness: medium
+  understanding: medium
+  rating: positive
+comment: |-
+  I evaluated this before using in my own project. I only really know Linux,
+  but WASI and Windows parts made sense to me as well. I can't vouch for
+  memory safety of WinAPI calls, so I capped the rating at "positive" rather
+  than giving it the "strong" that it probably deserves.
+----- SIGN CREV PROOF -----
+18JWvToAqDJew6EmdGXmDp6CemVRnQ9PNvYPOYn4pxCnzhmjKviaJ8wVSEdDWUIbSk1-9YRJgKdWkkkppEhdDA
+----- END CREV PROOF -----
+
