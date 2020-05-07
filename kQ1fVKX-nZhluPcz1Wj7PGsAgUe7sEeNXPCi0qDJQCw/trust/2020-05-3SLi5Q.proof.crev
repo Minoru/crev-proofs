@@ -19,3 +19,24 @@ comment: |-
 -ercUI2k9Vx0yQJgv-6vmfRl5x4OlvDLIFZpPtvgT4_2QkZE6YMqIZehNgeP8k1g9cpN74DwjOkcprBdwAUlDw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: trust
+version: -1
+date: "2020-05-08T00:35:50.682735678+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+ids:
+  - id-type: crev
+    id: ZGgmIacywCRKLa33k7W04VFcK-glDkcBXKG4oF7t--4
+    url: "https://github.com/kpcyrd/crev-proofs"
+trust: low
+comment: |-
+  @kpcyrd contributed to my project, Newsboat. I also know that he is on the
+  Rust maintainers team in Debian. We haven't interacted all that much, so
+  right now I only have basic trust.
+----- SIGN CREV PROOF -----
+jvhDGSZVl5N914SJitIoZ_fady6rGPUa7nBvmQUCRxelOXDXKlTYtg4s2JFIe3raGvs-jV8wpJNoTVrhZCD6Dw
+----- END CREV PROOF -----
+
