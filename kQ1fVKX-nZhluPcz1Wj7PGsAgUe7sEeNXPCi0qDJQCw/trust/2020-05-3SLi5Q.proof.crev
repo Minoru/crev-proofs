@@ -40,3 +40,23 @@ comment: |-
 jvhDGSZVl5N914SJitIoZ_fady6rGPUa7nBvmQUCRxelOXDXKlTYtg4s2JFIe3raGvs-jV8wpJNoTVrhZCD6Dw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: trust
+version: -1
+date: "2020-05-08T00:38:51.387335672+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+ids:
+  - id-type: crev
+    id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+    url: "https://github.com/kornelski/crev-proofs"
+trust: low
+comment: |-
+  I know @kornelski only through a few interactions on Mastodon, so have just
+  basic trust so far.
+----- SIGN CREV PROOF -----
+grHwCgAipvqEaSlFfn86GE1GrnnWFy817AjqjxnG8pCzRrQ9CvZUWxLbPbPSs0gUU0Pj46kv47AD6GnU16GjCQ
+----- END CREV PROOF -----
+
