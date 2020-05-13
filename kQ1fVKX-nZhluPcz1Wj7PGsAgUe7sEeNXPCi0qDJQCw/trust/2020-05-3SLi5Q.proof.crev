@@ -100,3 +100,21 @@ comment: |-
 z2Fv2bxu-CvTS420PYZEs6sSfiGUmeNuIfOr0l4EihF4VRnrMizUnZsbrFzzTtCtu66nJbv40B78vxVKpmXtCQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: trust
+version: -1
+date: "2020-05-13T19:09:03.236971801+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+ids:
+  - id-type: crev
+    id: GXDSxzEBLmRuNZhvrgKCGskZGIQBqayeqTUSpw0aRQM
+trust: medium
+comment: |-
+  @dennisschagt contributed to my project, Newsboat, and reviewed a number of my own contributions. I believe he started learning Rust only recently, but his C++ work makes me trust his ability in understanding *any* code.
+----- SIGN CREV PROOF -----
+0TJaAKo578wvrvn0hpiqeYBPQzXnTO47ZxuS8NjPM3KSICPhTRoaKH90wiUxRipM_Zxum8m7QUMUbM8hnl6NBg
+----- END CREV PROOF -----
+
