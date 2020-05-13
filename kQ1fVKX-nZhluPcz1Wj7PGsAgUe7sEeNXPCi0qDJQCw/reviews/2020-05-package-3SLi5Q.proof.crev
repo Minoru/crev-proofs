@@ -25,3 +25,31 @@ comment: |-
 18JWvToAqDJew6EmdGXmDp6CemVRnQ9PNvYPOYn4pxCnzhmjKviaJ8wVSEdDWUIbSk1-9YRJgKdWkkkppEhdDA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-05-13T17:43:31.280379148+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+package:
+  source: "https://crates.io"
+  name: constant_time_eq
+  version: 0.1.5
+  revision: 8db4b026a1936dd0544587546275ce73fff9effa
+  digest: rYsbptk2SJdqmgOWbhPUgeDLuB6k6qyzyen0Xi48VAk
+review:
+  thoroughness: medium
+  understanding: high
+  rating: strong
+comment: |-
+  I compared this to crypto/memneq.c from Linux 5.7-rc5; the algorithm is
+  indeed the same, and I understand how it works. There are comments for all
+  the unobvious bits, too. I am not formally trained in cryptography, but
+  I posses basic knowledge and I believe this code to be secure for any
+  application.
+----- SIGN CREV PROOF -----
+qpDI73mk2Z19ZJBjAsM9huA0ggMSH0qHvx7sSnCG-tS_YGuxhzlmYByo2TX2-OoCB9xZQxmSSTf-uYT8jNsPBA
+----- END CREV PROOF -----
+
