@@ -53,3 +53,27 @@ comment: |-
 qpDI73mk2Z19ZJBjAsM9huA0ggMSH0qHvx7sSnCG-tS_YGuxhzlmYByo2TX2-OoCB9xZQxmSSTf-uYT8jNsPBA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-05-13T18:03:32.501573390+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+package:
+  source: "https://crates.io"
+  name: dirs
+  version: 2.0.2
+  revision: d1c9b298df17b7d6ad4c5bc1f42b59888113d182
+  digest: ziRk4BJUoRrSLtpCdDW2mblJVuzn8VnJ7ROjHJZ0kao
+flags:
+  unmaintained: true
+comment: |-
+  Appears to be unmaintained:
+      - repository on GitHub is archived without any notices in the README: https://github.com/soc/dirs-rs
+      - crate is co-maintained by @tbu, but their fork wasn't updated since Dec 26, 2015: https://github.com/tbu-/dirs
+----- SIGN CREV PROOF -----
+OTeI7Y4G4jE1cnULxHSHDKi7A30QNT-ofG96ibziUH0mCw7d3ZlHqXIyKLfsykiG6e1WNklo9zomWieJJnBJBQ
+----- END CREV PROOF -----
+
