@@ -77,3 +77,27 @@ comment: |-
 OTeI7Y4G4jE1cnULxHSHDKi7A30QNT-ofG96ibziUH0mCw7d3ZlHqXIyKLfsykiG6e1WNklo9zomWieJJnBJBQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-05-13T19:05:35.103095896+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+package:
+  source: "https://crates.io"
+  name: dirs-sys
+  version: 0.3.4
+  revision: c3e8767a38bb542dea712c85307b6834273f2de2
+  digest: qOBrFCB68TQ-HLSk1iAQygWeE1JWozEGZSSRE78poic
+flags:
+  unmaintained: true
+comment: |-
+  Appears to be unmaintained:
+      - GitHub repo is archived without any notices in the README: https://github.com/soc/dirs-sys-rs
+      - no co-maintainers on crates.io
+----- SIGN CREV PROOF -----
+oGVHYNr-X1zpFywtPA8cGjZufacyXdKF18JGe49CdW2707tszfFE2PJ4VefJ3rBDpaa636i-WUVSVnJb1c1GCg
+----- END CREV PROOF -----
+
