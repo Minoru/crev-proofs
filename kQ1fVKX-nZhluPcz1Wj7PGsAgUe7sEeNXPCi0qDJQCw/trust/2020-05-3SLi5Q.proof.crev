@@ -118,3 +118,22 @@ comment: |-
 0TJaAKo578wvrvn0hpiqeYBPQzXnTO47ZxuS8NjPM3KSICPhTRoaKH90wiUxRipM_Zxum8m7QUMUbM8hnl6NBg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: trust
+version: -1
+date: "2020-05-21T19:25:38.196963661+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+ids:
+  - id-type: crev
+    id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+    url: "https://github.com/kornelski/crev-proofs"
+trust: medium
+comment: |-
+  I read a few of @kornelski's reviews in rust-security-framework and pngquant.
+----- SIGN CREV PROOF -----
+z131QIwrgWLRUurS2jWcRj2IEi2urdv3ci15wxXicWIIQMNPSxvnxBxVtwCHkF1P8HpjYuFez4YKnYp4lNlwBw
+----- END CREV PROOF -----
+
