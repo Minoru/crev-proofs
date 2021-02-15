@@ -1,0 +1,26 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-02-15T22:17:19.451077720+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+package:
+  source: "https://crates.io"
+  name: autocfg
+  version: 1.0.1
+  revision: d2c60343b63239dd514622df39172f90463db886
+  digest: xjqp54rYnhV69TRCpBgSci8cIertUXvs_SLH15TDdVc
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  No unsafe code. The rest looks benign: the crate emits little bits of code
+  and runs them through the compiler to detect features. The test suite is
+  minimal but looks complete.
+----- SIGN CREV PROOF -----
+InT3RWENznByRbF2LXbulsnWbacIDKW8tBQyAt6qbXwa7QZNUt7s0IdATbAVTYzQHGqaJ95ucIBqa20GmDFtCA
+----- END CREV PROOF -----
+
