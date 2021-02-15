@@ -62,3 +62,41 @@ comment: |-
 Wv2f9l2HBkKCoQFDWxtcvn_-P7VGzfJP5n2UfnrmR1pxr9hm7_IUDk9XTLR4KSDRF1FG3czdMXqFBQuh841SAg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-02-16T00:53:06.480470212+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+package:
+  source: "https://crates.io"
+  name: gettext-rs
+  version: 0.5.0
+  revision: 8e3a848e003789cc2f20ddc216c823b916e142f9
+  digest: GwVmw6Q_NiYdISA7Mke4I5OkqnG2BoHiwVdkuLvoZOk
+review:
+  thoroughness: high
+  understanding: high
+  rating: negative
+comment: |-
+  The crate provides safe wrappers for FFI bindings from gettext-sys crate.
+  The bindings are suspicious as they might use already-deallocated memory[1],
+  and they don't document panic conditions[2].
+  
+  1. https://github.com/Koka/gettext-rs/issues/34
+  2. https://github.com/Koka/gettext-rs/issues/33
+  
+  Furthermore, the library seems to assume that the locale charset is UTF-8[3],
+  which if false can lead to garbled translations as non-UTF-8 bytes would be
+  replaced by U+FFFD.
+  
+  3. https://github.com/Koka/gettext-rs/issues/35
+  
+  The UTF-8 and documentation issues would cap the rating at "positive", but
+  the memory issue puts this crate into "negative" territory.
+----- SIGN CREV PROOF -----
+nmMC6em2WGKVNOMGY7E7HwObuMeOsVIcC6bDxg8e1N1-4watFJQMHemUGVxAESr2O9mqSHUrrgRvCxszi2m7Ag
+----- END CREV PROOF -----
+
