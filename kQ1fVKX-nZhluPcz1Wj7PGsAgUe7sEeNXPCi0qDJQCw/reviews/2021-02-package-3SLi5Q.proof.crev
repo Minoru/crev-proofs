@@ -24,3 +24,41 @@ comment: |-
 InT3RWENznByRbF2LXbulsnWbacIDKW8tBQyAt6qbXwa7QZNUt7s0IdATbAVTYzQHGqaJ95ucIBqa20GmDFtCA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-02-15T22:44:58.542718817+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+package:
+  source: "https://crates.io"
+  name: gettext-sys
+  version: 0.19.9
+  revision: 15d4baf584ca5b2994efe3497146472b05b20608
+  digest: vPxlmxfN7QoBfDWLW3bGRWNEfMfaeFL_Ub7TvS64gdk
+review:
+  thoroughness: medium
+  understanding: high
+  rating: strong
+comment: |-
+  This crate bundles an older version of GNU gettext and provides unsafe
+  FFI bindings.
+  
+  I checked, and bindings indeed correspond to the contents of the C headers
+  libintl.h and locale.h.
+  
+  The only complex part of this crate is a build script, but it mostly deals
+  with platform differences. There are a few FIXMEs, but they're all benign.
+  
+  The bundled library is licensed under LGPL, which puts some restrictions on
+  how it can be used. The crate's documentation currently doesn't make this
+  clear though: https://github.com/Koka/gettext-rs/issues/31
+  
+  Giving a strong rating because code-wise, this is a solid crate, and
+  licensing issues don't change that.
+----- SIGN CREV PROOF -----
+Wv2f9l2HBkKCoQFDWxtcvn_-P7VGzfJP5n2UfnrmR1pxr9hm7_IUDk9XTLR4KSDRF1FG3czdMXqFBQuh841SAg
+----- END CREV PROOF -----
+
