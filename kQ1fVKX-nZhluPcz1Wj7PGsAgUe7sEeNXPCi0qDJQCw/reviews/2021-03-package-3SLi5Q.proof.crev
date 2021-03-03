@@ -33,3 +33,40 @@ comment: |-
 o1PAIHYmzkUByiSIk-WoTPgcUWd3EKDNmcMjVOnLQvVgphh1k8Q4n8OvslfZWR8Fd2GX6AOLHvSSzbr77regBw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-03-03T20:55:13.710248388+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+package:
+  source: "https://crates.io"
+  name: gettext-rs
+  version: 0.6.0
+  revision: bc6b043ba9a64acb11564c22a5dcc318bd74accc
+  digest: cOvjfD2qdO5iIFQUfK4TytnaQhjsN_4IRKHpeBTbbns
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+comment: |-
+  This is basically a self-review, since it's me who fixed the problems
+  I highlighted in my previous review.
+  
+  This crate contains safe FFI bindings for gettext.
+  
+  The memory issues I mentioned in the previous review are fixed, and panics
+  documented. There are no `unwrap`s, and all errors are propagated via
+  `Result`s.
+  
+  The crate still depends on gettext returning UTF-8, but this is now
+  prominently documented.
+  
+  Compared to 0.5.0, the API is more fleshed out and polished (even if I say so
+  myself).
+----- SIGN CREV PROOF -----
+skSsOLAZeXoCiX65cNhvmjTu3y9XPxvTVFX1laAbhsYRLUm6ThVry2gCMx1E8ltm5L0ukjYxAA3xXqY5wjt4BA
+----- END CREV PROOF -----
+
