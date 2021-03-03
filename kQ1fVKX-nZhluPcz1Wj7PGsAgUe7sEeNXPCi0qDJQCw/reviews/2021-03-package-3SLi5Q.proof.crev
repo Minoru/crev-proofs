@@ -1,0 +1,35 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-03-03T20:50:52.923237821+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+package:
+  source: "https://crates.io"
+  name: gettext-sys
+  version: 0.21.0
+  revision: 78b75bc82d45493b9a66ec5429fa9451daf324fa
+  digest: M1n8cJSsg4_V5YBywZoqYduJgvRQuMxwpgu1ZV22zWI
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+comment: |-
+  This is basically a self-review, since it's me who fixed the problems
+  I highlighted in my previous review.
+  
+  The crate now bundles an up-to-date version of GNU gettext, which is nice.
+  
+  The documentation now features a prominent warning about the bundled
+  library's license, LGPL.
+  
+  This release added one new binding and some workarounds for build issues. All
+  of that looks good to me (but remember that I'm the author of those changes).
+  
+  The crate is now even more solid than before.
+----- SIGN CREV PROOF -----
+o1PAIHYmzkUByiSIk-WoTPgcUWd3EKDNmcMjVOnLQvVgphh1k8Q4n8OvslfZWR8Fd2GX6AOLHvSSzbr77regBw
+----- END CREV PROOF -----
+
