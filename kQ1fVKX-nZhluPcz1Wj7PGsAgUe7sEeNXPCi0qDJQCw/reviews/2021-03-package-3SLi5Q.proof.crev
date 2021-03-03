@@ -70,3 +70,32 @@ comment: |-
 skSsOLAZeXoCiX65cNhvmjTu3y9XPxvTVFX1laAbhsYRLUm6ThVry2gCMx1E8ltm5L0ukjYxAA3xXqY5wjt4BA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-03-04T02:39:38.622368966+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+package:
+  source: "https://crates.io"
+  name: remove_dir_all
+  version: 0.5.3
+  revision: 0c218dad77262fbf47483d128feebb2770a8c05e
+  digest: ltL2xkeGeGdvI4bRC3Zf47MxRRRpS83d4GERoSl4544
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+comment: |-
+  I'm not a Windows programmer; I merely took a peek to see if the crate is
+  blatantly malicious, and it looks like it isn't.
+  
+  The code is well-commented. Uses `unsafe` sparingly, just to call WinAPI — no
+  high-performance tricks. Some comments refer to alignment issues, which shows
+  the amount of thought that went into the code; nice.
+----- SIGN CREV PROOF -----
+uEpkGiMdYOMPFiexcB1srwdsE1ox2XnBNgEoXdGbCH4fHisX4kFvbzlF816_WlyVLo05-u2OxtksACfMdpAdDg
+----- END CREV PROOF -----
+
