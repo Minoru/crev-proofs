@@ -99,3 +99,35 @@ comment: |-
 uEpkGiMdYOMPFiexcB1srwdsE1ox2XnBNgEoXdGbCH4fHisX4kFvbzlF816_WlyVLo05-u2OxtksACfMdpAdDg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-03-11T01:27:56.626442349+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+package:
+  source: "https://crates.io"
+  name: scratch
+  version: 1.0.0
+  revision: d9b7679377951ec21ec9a52da466e89f04a9deaf
+  digest: f4HBOJc2rdzbFa3tVrL2oapoPR5jZlOfHflgkFWC8fk
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+comment: |-
+  Trivial (but useful!) crate that creates a temporary directory which can be
+  seen by any crate that depends on this one.
+  
+  There are just 6 lines of actual code here. They read OUT_DIR from
+  environment, and create/remove some directories.
+  
+  A rogue crate could include this one and use it to stomp on some other
+  crate's scratch space. It's hard for me to see this as a vulnerability, since
+  the user is supposed to trust the code they're running during the build.
+----- SIGN CREV PROOF -----
+_4FPKgLBTZENocbSMP68DkKgWRaE60yS2l3Ht6DJYsvYmQGUFYa1ok3bHRTZiQ3GHxeb13mJKbgRCeQFbgdQCg
+----- END CREV PROOF -----
+
