@@ -160,3 +160,32 @@ comment: |-
 hSxCYQXdXgsywl1n276amam5FyeWur1nZ4enqlvwqoFSeuqJIjao6BFeZD4OWtf0QTTuAlbvlFzx0cLSuV7ADw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-03-11T01:48:18.037785449+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+package:
+  source: "https://crates.io"
+  name: link-cplusplus
+  version: 1.0.4
+  revision: adf048bcec5ad2cb6ac8a6eb5ed214b5adc1e7b2
+  digest: Z5uk8dCZ-K9ej2dASC1nwzuarGwth_5YnUF2Jk6iEKo
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+comment: |-
+  Another tiny-yet-useful crate. Lets the users request which C++ stdlib they'd
+  like to link to. If nobody cares, or if there are conflicting choices, it
+  punts the choice to the "cc" crate which picks the platform default.
+  
+  I don't see anything suspicious here, and don't see a way to trick this crate
+  into doing something bad, thus a strong rating.
+----- SIGN CREV PROOF -----
+rDGn04v76QYN4TCaFzuSfCVFKse5FzQVykefgoyGugb3TduHz4zOmdGtrK8N78bRSCIcmpdORyI4j_Wt7RSTBA
+----- END CREV PROOF -----
+
