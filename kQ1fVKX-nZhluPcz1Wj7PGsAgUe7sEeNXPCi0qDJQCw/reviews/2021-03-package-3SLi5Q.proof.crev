@@ -131,3 +131,32 @@ comment: |-
 _4FPKgLBTZENocbSMP68DkKgWRaE60yS2l3Ht6DJYsvYmQGUFYa1ok3bHRTZiQ3GHxeb13mJKbgRCeQFbgdQCg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-03-11T01:40:25.433021751+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+package:
+  source: "https://crates.io"
+  name: winapi-i686-pc-windows-gnu
+  version: 0.4.0
+  digest: 8BsjRXHqrrNVolIuivkuUQwrFendQmVRDZihn1P-1t4
+review:
+  thoroughness: low
+  understanding: high
+  rating: positive
+comment: |-
+  This crate vendors various WinAPI libraries for i686. All it does is add
+  a library search path to Cargo, pointing at a directory full of .a files
+  (static libraries).
+  
+  I didn't actually verify where the libraries come from, and if they match
+  their origin; that's why I cap thoroughness at "low", and rating at
+  "positive".
+----- SIGN CREV PROOF -----
+hSxCYQXdXgsywl1n276amam5FyeWur1nZ4enqlvwqoFSeuqJIjao6BFeZD4OWtf0QTTuAlbvlFzx0cLSuV7ADw
+----- END CREV PROOF -----
+
