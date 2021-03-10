@@ -189,3 +189,30 @@ comment: |-
 rDGn04v76QYN4TCaFzuSfCVFKse5FzQVykefgoyGugb3TduHz4zOmdGtrK8N78bRSCIcmpdORyI4j_Wt7RSTBA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-03-11T02:07:28.089006051+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+package:
+  source: "https://crates.io"
+  name: malloc_buf
+  version: 0.0.6
+  digest: x2abx0p2ctaESaod4uoWSmNiIiW0c1PegaYIvwTRTK8
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+comment: |-
+  This is a tiny wrapper over a raw pointer allocated by malloc; this crate
+  provides a slice-like interface and ensures that the pointer is free()d when
+  the wrapper is dropped.
+  
+  This looks solid to me.
+----- SIGN CREV PROOF -----
+c0I5dsDiSQA2XTZ8BOmpgXVvjBotgYt0FIaAww33LAxvs-gV3gALfmjrRPXgHD66781RBPOQuVpgu_i4YGCOAg
+----- END CREV PROOF -----
+
