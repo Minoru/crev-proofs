@@ -216,3 +216,38 @@ comment: |-
 c0I5dsDiSQA2XTZ8BOmpgXVvjBotgYt0FIaAww33LAxvs-gV3gALfmjrRPXgHD66781RBPOQuVpgu_i4YGCOAg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-03-11T02:57:10.029070364+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+package:
+  source: "https://crates.io"
+  name: tap
+  version: 1.0.0
+  revision: a12cfee6e1333872800a81fe55f0078bc0a08c88
+  digest: InQg4xkTI7d_21fEy8mExHmI5eUlDk1l160vC5i4osI
+review:
+  thoroughness: medium
+  understanding: medium
+  rating: positive
+comment: |-
+  This crate provides three pieces of plumbing that makes it easier to chain
+  functions:
+  
+  1. "taps", which pass the borrowed value into a function and then return it
+     (think logging);
+  2. "pipes", which are basically a universal `map()`;
+  3. "conv", which is like `into()` but lets you specify the target type, so
+     you can put it in the middle of a call-chain.
+  
+  A lot of pretty boring code. It looks all right to me, but I got too lazy to
+  check why functions usually require sized types; that's why I cap my
+  "thoroughness" and "understanding" at "medium", and rating at "positive".
+----- SIGN CREV PROOF -----
+ZLAKtjGlXwVPErONgrc9wyb87usLMy7oyNw8_NX7lqfM_tdWYS5EdUkQ15rsvhewYN9WsbO86giW729JJeZPCQ
+----- END CREV PROOF -----
+
