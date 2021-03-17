@@ -251,3 +251,39 @@ comment: |-
 ZLAKtjGlXwVPErONgrc9wyb87usLMy7oyNw8_NX7lqfM_tdWYS5EdUkQ15rsvhewYN9WsbO86giW729JJeZPCQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-03-17T03:34:36.473759757+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+package:
+  source: "https://crates.io"
+  name: libc
+  version: 0.2.89
+  revision: 508f65a2f87968f14a2b815f1e5537f08c504907
+  digest: SnKG8O4ekYUfl1kP5Rvg8p7Q6Y2efjCp-VwdP2bdqEk
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  This crate contains unsafe bindings to platform-specific C functions. The
+  project has an expansive CI pipeline that runs ctest on Linux, macOS,
+  FreeBSD, and Windows. Where possible, the testing is done on multiple
+  architectures with different libc implementations.
+  
+  Most of the crate is marked unsafe, but that's just the nature of the beast.
+  
+  I only looked at one module, unix, so thoroughness is capped at "low".
+  However, the crate comes from the same people who build Rust itself, so this
+  doesn't affect the rating.
+  
+  Given it's just a list of declarations, which are then automatically checked,
+  I'm fairly confident that this code does what it's supposed to do.
+----- SIGN CREV PROOF -----
+c65ohpLfPtHtxZFsJxfCMB1ttn7Apo_0rFxmrO3kgnyKX_AB4deXbJWMzBHLxOrtwe4OCmgT2Gd3K2gUCSE9CQ
+----- END CREV PROOF -----
+
