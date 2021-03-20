@@ -287,3 +287,35 @@ comment: |-
 c65ohpLfPtHtxZFsJxfCMB1ttn7Apo_0rFxmrO3kgnyKX_AB4deXbJWMzBHLxOrtwe4OCmgT2Gd3K2gUCSE9CQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-03-20T15:35:51.806562748+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+package:
+  source: "https://crates.io"
+  name: libc
+  version: 0.2.90
+  revision: 9d710c1fe09d06215306fb3684b0b1628deafd9e
+  digest: NucEvasf8YyKqJGEQXwCD48qtA8nLpW1w1jFkpAWZVs
+package-diff-base:
+  source: "https://crates.io"
+  name: libc
+  version: 0.2.89
+  revision: 508f65a2f87968f14a2b815f1e5537f08c504907
+  digest: SnKG8O4ekYUfl1kP5Rvg8p7Q6Y2efjCp-VwdP2bdqEk
+review:
+  thoroughness: medium
+  understanding: medium
+  rating: positive
+comment: |-
+  I checked that the delta from 0.2.89 doesn't add any suspicious code. It
+  indeed doesn't. I trust that ctest in the project's CI checked that all new
+  constants have the expected values, and that function signatures match C.
+----- SIGN CREV PROOF -----
+gXUJfhqLDaQvTOma7GaRREpgbxnNNL16xech9dzvMZmBi03bYqBBxKKS-0CcKDXymliyrWMsNAOJ-pPY6Oa_Bw
+----- END CREV PROOF -----
+
