@@ -384,3 +384,36 @@ comment: |-
 SinjD_omzTL90sEQ95NFOZhsarMY22UPffjCyZdE-6d0KKwM23wWQezQcR3T0CJrPs2j-ALZW7d7fDvtsWaoCA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-03-24T02:33:10.219913860+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+package:
+  source: "https://crates.io"
+  name: tap
+  version: 1.0.1
+  revision: f5315f0f5ca90ce6399daac76c1fe3ba645a4e4e
+  digest: QqQX362LCzK4lP7j9Raf_IwKAX9-t0oStl59LhIGIUE
+package-diff-base:
+  source: "https://crates.io"
+  name: tap
+  version: 1.0.0
+  revision: a12cfee6e1333872800a81fe55f0078bc0a08c88
+  digest: InQg4xkTI7d_21fEy8mExHmI5eUlDk1l160vC5i4osI
+review:
+  thoroughness: medium
+  understanding: medium
+  rating: positive
+comment: |-
+  Delta since 1.0.0 only shows rustdoc improvements: module documentation is
+  hoisted into the root of the crate.
+  
+  My review of 1.0.0 stands.
+----- SIGN CREV PROOF -----
+YGIrO2-XA9KmY2Aqx3Hk-BrOSgOXyWxFgfob6hwjvp7tSQk-LDnQcozYm78hpRuOUryuOjXc1-2pOYz2Awg2AQ
+----- END CREV PROOF -----
+
