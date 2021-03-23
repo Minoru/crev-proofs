@@ -319,3 +319,35 @@ comment: |-
 gXUJfhqLDaQvTOma7GaRREpgbxnNNL16xech9dzvMZmBi03bYqBBxKKS-0CcKDXymliyrWMsNAOJ-pPY6Oa_Bw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-03-24T01:01:58.992069829+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+package:
+  source: "https://crates.io"
+  name: libc
+  version: 0.2.91
+  revision: bd7e0522f7631a0be106fa3ea3f6f6d8ad514b66
+  digest: RJhRlMK_ETLdQniw_qcKg8-naxZ2R9Br4DauNLPV2Uc
+package-diff-base:
+  source: "https://crates.io"
+  name: libc
+  version: 0.2.90
+  revision: 9d710c1fe09d06215306fb3684b0b1628deafd9e
+  digest: NucEvasf8YyKqJGEQXwCD48qtA8nLpW1w1jFkpAWZVs
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Delta from 0.2.90 only adds a single constant to a couple modules and edits
+  some docs. Looks okay to me. (As usual, I rely on the project's CI to check
+  if the constant is correct, hence "thoroughness" is low).
+----- SIGN CREV PROOF -----
+q4wUNo_y-w9d-JJXxgq0loA3Sm8Wj5kWG1D2i0cCRnFGwKfL7rbDjLEkK5AHHO1hReEHeaBJ1E_IpeCX8E_LDg
+----- END CREV PROOF -----
+
