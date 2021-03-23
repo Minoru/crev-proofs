@@ -351,3 +351,36 @@ comment: |-
 q4wUNo_y-w9d-JJXxgq0loA3Sm8Wj5kWG1D2i0cCRnFGwKfL7rbDjLEkK5AHHO1hReEHeaBJ1E_IpeCX8E_LDg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-03-24T02:31:14.947910438+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+package:
+  source: "https://crates.io"
+  name: link-cplusplus
+  version: 1.0.5
+  revision: 818fe3d162dcb284611f62b61af261adca7a8fa6
+  digest: q2fvRuR_s2lK9E4gCZ9lGiXbFYlcr7pXDh137xeYyZo
+package-diff-base:
+  source: "https://crates.io"
+  name: link-cplusplus
+  version: 1.0.4
+  revision: adf048bcec5ad2cb6ac8a6eb5ed214b5adc1e7b2
+  digest: Z5uk8dCZ-K9ej2dASC1nwzuarGwth_5YnUF2Jk6iEKo
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+comment: |-
+  The delta since 1.0.4 only shows documentation changes. They also added
+  Clippy to the CI, which is nice.
+  
+  No changes to the code, so my 1.0.4 review stands.
+----- SIGN CREV PROOF -----
+SinjD_omzTL90sEQ95NFOZhsarMY22UPffjCyZdE-6d0KKwM23wWQezQcR3T0CJrPs2j-ALZW7d7fDvtsWaoCA
+----- END CREV PROOF -----
+
