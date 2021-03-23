@@ -15,3 +15,20 @@ trust: medium
 XSuybpUrT23rskgADSEuxoJP7DzLgDV39TEWEtP9A7cge1q9ryuE7McYnabzkLcl4ndNNThtfvGfsrZUpJ9LAw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: trust
+version: -1
+date: "2021-03-24T02:42:41.393245930+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+ids:
+  - id-type: crev
+    id: rBGRONmiSLmELT1SuRDDScgLcoJl8mTdEbZqz1XCesM
+    url: "https://github.com/kornelski/crev-proofs"
+trust: medium
+----- SIGN CREV PROOF -----
+B9hcd77xB1akp-WDncZ7-522572R35sFBBFSm0w-4J0AY4Ia_p9rAaJ5fwhzHT7GpMVAgRzfJgcpeYJwKUDXCg
+----- END CREV PROOF -----
+
