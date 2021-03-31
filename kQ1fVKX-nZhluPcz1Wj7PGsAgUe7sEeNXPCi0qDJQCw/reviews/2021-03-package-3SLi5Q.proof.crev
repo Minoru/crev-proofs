@@ -417,3 +417,36 @@ comment: |-
 YGIrO2-XA9KmY2Aqx3Hk-BrOSgOXyWxFgfob6hwjvp7tSQk-LDnQcozYm78hpRuOUryuOjXc1-2pOYz2Awg2AQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-04-01T01:45:02.119531814+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+package:
+  source: "https://crates.io"
+  name: libc
+  version: 0.2.92
+  revision: 77056408a1cab851d5d4f8c4fb903f102d8b7c65
+  digest: jN981VF21ia5PqfZRV9ieLY4Z5aby2OI-TfGQvT23BQ
+package-diff-base:
+  source: "https://crates.io"
+  name: libc
+  version: 0.2.91
+  revision: bd7e0522f7631a0be106fa3ea3f6f6d8ad514b66
+  digest: RJhRlMK_ETLdQniw_qcKg8-naxZ2R9Br4DauNLPV2Uc
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Delta from 0.2.91 mostly moves code around by adding `const` annotations. It
+  also introduces one new bindings (pwrite64). Nothing suspicious. As usual,
+  I rely on the project's CI to check that the bindings match C, hence
+  "thoroughness" is low.
+----- SIGN CREV PROOF -----
+aKJ7m5q1nXNiZcvFjf1Dxk9-bGIRT9eCupPMNy7dthElJjxu3wZy1pUXkgU0_qzdR1Dn0Xd0FzeGSGYjgAK-Aw
+----- END CREV PROOF -----
+
