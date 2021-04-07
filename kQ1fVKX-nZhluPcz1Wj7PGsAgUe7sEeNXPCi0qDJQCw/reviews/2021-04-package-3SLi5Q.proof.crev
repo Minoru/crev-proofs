@@ -1,0 +1,41 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-04-07T20:58:43.545923152+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+package:
+  source: "https://crates.io"
+  name: libc
+  version: 0.2.93
+  revision: 3b185efb5ab36d25f4c1f87ce74ccce42ddd4743
+  digest: 7LxyPS1PA87QUxb4rGEApEhyZAD8BiTiWKIQXC6LG_0
+package-diff-base:
+  source: "https://crates.io"
+  name: libc
+  version: 0.2.92
+  revision: 77056408a1cab851d5d4f8c4fb903f102d8b7c65
+  digest: jN981VF21ia5PqfZRV9ieLY4Z5aby2OI-TfGQvT23BQ
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Delta from 0.2.92 consists mostly of two things: formatting changes, and
+  modularisation of some architecture-specific constants for Linux.
+  
+  Packing was disabled for `arphdr` and `in_addr` on NetBSD. The commit message
+  sounds convincing to me
+  (https://github.com/rust-lang/libc/commit/ec13c82bc93070dfe1d81a359174e0495edfe487).
+  
+  There's also a hint at a new CI machinery that'll ensure the crate doesn't
+  break semver.
+  
+  Overall this looks fine to me. As usual, I rely on the project's CI to check
+  that the bindings match C, hence "thoroughness" is low.
+----- SIGN CREV PROOF -----
+60UKZihpQ7DK2_FpqvsJzlHMm_qljYgnX_xPFzbC5tLM__qqwTaHbCQsN3WTBHAlrrWqFcEYF9U_ARNLhgCUCA
+----- END CREV PROOF -----
+
