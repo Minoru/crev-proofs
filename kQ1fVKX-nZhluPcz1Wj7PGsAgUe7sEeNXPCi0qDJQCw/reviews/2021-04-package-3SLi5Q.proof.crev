@@ -39,3 +39,35 @@ comment: |-
 60UKZihpQ7DK2_FpqvsJzlHMm_qljYgnX_xPFzbC5tLM__qqwTaHbCQsN3WTBHAlrrWqFcEYF9U_ARNLhgCUCA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-04-26T19:12:44.257339012+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+package:
+  source: "https://crates.io"
+  name: gettext-rs
+  version: 0.7.0
+  revision: 81ded1d817c4d384ff19df72ba20829a6642e345
+  digest: dEquPXbxLERv9tQySljva_VjyzGX5npY8npiyFFb4Pw
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+comment: |-
+  This is a self-review, because this release is made by me and contains only
+  the changes that I made.
+  
+  The crate provides safe wrappers over an FFI for GNU gettext (which is
+  packaged separately, as a gettext-sys crate). There are no known issues with
+  those wrappers.
+  
+  This release fixes an incorrect default for XDG_DATA_DIRS. There are no
+  security implications to this change, as far as I can see.
+----- SIGN CREV PROOF -----
+kunpRWKKEuvoprzxKz95xs1-UblxXxGhoj4bngrdNk7JfvSeLmrJCR3wBhdE0kIv4fBCrRWKE0lThwoiz5TxAw
+----- END CREV PROOF -----
+
