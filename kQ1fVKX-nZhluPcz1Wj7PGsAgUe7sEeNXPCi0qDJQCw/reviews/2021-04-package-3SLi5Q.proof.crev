@@ -71,3 +71,38 @@ comment: |-
 kunpRWKKEuvoprzxKz95xs1-UblxXxGhoj4bngrdNk7JfvSeLmrJCR3wBhdE0kIv4fBCrRWKE0lThwoiz5TxAw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-04-27T12:45:01.097309842+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+package:
+  source: "https://crates.io"
+  name: libc
+  version: 0.2.94
+  revision: 50af40e2776fa3573bdf8071a3fe98cea41206da
+  digest: "-6MoxTjTCuJ6m8VuvNHgzgWzFtQdzZvwfwGykkAyVjY"
+package-diff-base:
+  source: "https://crates.io"
+  name: libc
+  version: 0.2.93
+  revision: 3b185efb5ab36d25f4c1f87ce74ccce42ddd4743
+  digest: 7LxyPS1PA87QUxb4rGEApEhyZAD8BiTiWKIQXC6LG_0
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Delta from 0.2.93 moves some TCP-related constants around, adds
+  RLIMIT_NLIMITS constant, and provides a few new function bindings.
+  
+  This looks fine. "Thoroughness" for this review is "low" because I didn't
+  manually check that the bindings match the headers — I trust that the CI
+  checked that already.
+----- SIGN CREV PROOF -----
+IGufaW7pTNSNsyEoZPZfcP38pDKbCKlhdm1bmZpL2Z_QQkgWorLYefML0bts8ZF_OSlnL58YiEwGOADlF1QbCA
+----- END CREV PROOF -----
+
