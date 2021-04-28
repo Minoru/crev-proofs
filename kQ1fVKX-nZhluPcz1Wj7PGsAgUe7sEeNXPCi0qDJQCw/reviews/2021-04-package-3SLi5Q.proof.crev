@@ -138,3 +138,32 @@ comment: |-
 Ti1HvVAF-_RqDu55PuyXJSS0Cjrp-zHPXoi02Vyqw3NdQfSVM0xAOC7uUN3JMn4catAhP46t2O0MogPy7FyOAQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-04-28T15:22:40.167478668+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+package:
+  source: "https://crates.io"
+  name: fnv
+  version: 1.0.7
+  revision: 4b4784ebfd3332dc61f0640764d6f1140e03a9ab
+  digest: zwIq6L987JORpY7sKIs9-cy-JSgFIiQXkccFGzvKZyM
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+comment: |-
+  FNV is an extremely simple hashing algorithm. This crate implements a variant
+  called FNV-1a.
+  
+  It uses no unsafe, and just basic arithmetic. Half the code is actually
+  tests. I'm convinced that there are no bugs here, and definitely no malicious
+  code.
+----- SIGN CREV PROOF -----
+euTnqWZMBFPtisIcRTND7I_cfZKxQT4A2Dg1WFngOvXIDYCVH_D4WhAV5Gvgj8rvJdSWMDOqldn_BeW_MjuHBA
+----- END CREV PROOF -----
+
