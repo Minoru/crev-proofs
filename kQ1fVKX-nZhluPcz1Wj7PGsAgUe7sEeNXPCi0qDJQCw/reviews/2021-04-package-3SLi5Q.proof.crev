@@ -106,3 +106,35 @@ comment: |-
 IGufaW7pTNSNsyEoZPZfcP38pDKbCKlhdm1bmZpL2Z_QQkgWorLYefML0bts8ZF_OSlnL58YiEwGOADlF1QbCA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-04-28T14:42:31.120089910+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+package:
+  source: "https://crates.io"
+  name: adler
+  version: 1.0.2
+  revision: a94f525f62698d699d1fb3cc9112db8c35662b16
+  digest: zWPz4nyNLm1aq3_slKvaZhXWySjaG0zb_x793by4b3M
+review:
+  thoroughness: high
+  understanding: medium
+  rating: positive
+comment: |-
+  This is an implementation of Adler-32 checksum. It has no `unsafe`, and the
+  code is quite simple. The only complicated part is the algorithm itself, but
+  there is a big comment explaining what's going on, and the structure of the
+  code matches the explanation. I can't vouch the implementation is bug-free,
+  but I'm sure it's sound and isn't malicious.
+  
+  Thoroughness is "high" because I read the whole crate quite attentively, but
+  understanding is still "medium" since I didn't quite follow the math that
+  enables vectorization in this crate. 
+----- SIGN CREV PROOF -----
+Ti1HvVAF-_RqDu55PuyXJSS0Cjrp-zHPXoi02Vyqw3NdQfSVM0xAOC7uUN3JMn4catAhP46t2O0MogPy7FyOAQ
+----- END CREV PROOF -----
+
