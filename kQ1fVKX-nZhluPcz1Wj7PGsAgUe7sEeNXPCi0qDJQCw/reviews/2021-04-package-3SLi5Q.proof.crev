@@ -167,3 +167,35 @@ comment: |-
 euTnqWZMBFPtisIcRTND7I_cfZKxQT4A2Dg1WFngOvXIDYCVH_D4WhAV5Gvgj8rvJdSWMDOqldn_BeW_MjuHBA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-04-28T15:48:06.286320076+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+package:
+  source: "https://crates.io"
+  name: rand_xorshift
+  version: 0.3.0
+  revision: eae0a9b91c5de272706134d25bc1ea3457bc9670
+  digest: CDFDUQhnO_m2KnLFEG5itYytHA2kyr3JdjfQHrW74wY
+review:
+  thoroughness: high
+  understanding: medium
+  rating: positive
+comment: |-
+  This implements a xorshift RNG with 128 bits of state.
+  
+  The implementation uses no unsafe, and does not even require std. The code is
+  straightforward, and matches the code from the paper that describes the RNG
+  ("Xorshift RNGs" by George Marsaglia).
+  
+  Seeding from an existing RNG can theoretically hang if the seeding RNG keeps
+  returning zeroes. I filed https://github.com/rust-random/rngs/issues/24 about
+  this and capped the rating at "positive".
+----- SIGN CREV PROOF -----
+h5aDwEZiDsl7l5k3bvJpaGnsh283seb7XQowxlNI5QheNlza2GUS9zgXKxa0cO5-Ko4rG0A3_tnk3JxjjtYFBg
+----- END CREV PROOF -----
+
