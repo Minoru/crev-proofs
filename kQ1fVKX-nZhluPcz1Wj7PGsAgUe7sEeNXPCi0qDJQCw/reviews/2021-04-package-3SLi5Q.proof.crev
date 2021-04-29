@@ -199,3 +199,35 @@ comment: |-
 h5aDwEZiDsl7l5k3bvJpaGnsh283seb7XQowxlNI5QheNlza2GUS9zgXKxa0cO5-Ko4rG0A3_tnk3JxjjtYFBg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-04-29T23:23:30.856763875+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+package:
+  source: "https://crates.io"
+  name: section_testing
+  version: 0.0.5
+  revision: 8229755743296b01901cae20aebac8369522199c
+  digest: gUu7NpXRFg88-JqWvzH89uORVJnm6Mj7ebka8UVtB0E
+review:
+  thoroughness: medium
+  understanding: low
+  rating: positive
+comment: |-
+  This crate implements "section testing" similar to Catch2 framework for C++.
+  
+  The code is pure Rust, there is no dependencies, and there are no "unsafe".
+  As such, there are no worries about unsoundness.
+  
+  However, the algorithm here is pretty involved, and after spending 20 minutes
+  staring at it, I still can't claim I grok how this code actually achieves
+  what it achieves. However, I *am* confident that this code is not malicious,
+  thus a positive rating.
+----- SIGN CREV PROOF -----
+CgDgRxz41f2oGfvzl5nmlUpNMbRqUnrWyS0eouASCph_37_xEa7VU7vehB5AzYYtkvjuMaU5RJ4XZgbmfMNpDQ
+----- END CREV PROOF -----
+
