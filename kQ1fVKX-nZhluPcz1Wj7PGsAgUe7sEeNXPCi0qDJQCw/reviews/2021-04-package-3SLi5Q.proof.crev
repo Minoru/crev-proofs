@@ -231,3 +231,27 @@ comment: |-
 CgDgRxz41f2oGfvzl5nmlUpNMbRqUnrWyS0eouASCph_37_xEa7VU7vehB5AzYYtkvjuMaU5RJ4XZgbmfMNpDQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-04-29T23:36:24.408631772+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+package:
+  source: "https://crates.io"
+  name: natord
+  version: 1.0.9
+  digest: 9CFc9W48fzF3PuuM5NpxG6KCioJqdXT9TdI3hqJbUOc
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+comment: |-
+  I don't grok the algorithm, but there is no `unsafe`, no dependencies, and no
+  super-weird code, so this looks fine to me.
+----- SIGN CREV PROOF -----
+MNCokzRurmKshlyzbXS5jrWsXbcmMXhM9es1nf5epI62V1zLmEID1Qfys5fCkLkaO_0UISZdXtsEzKcmwl99CA
+----- END CREV PROOF -----
+
