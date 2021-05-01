@@ -1,0 +1,36 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-05-01T19:30:33.407054671+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+package:
+  source: "https://crates.io"
+  name: wait-timeout
+  version: 0.2.0
+  revision: 7bb31d4901baa5196bd554e9e332bd9534eeb93b
+  digest: X0fv2iEYJul7e68zMn3i1nP_17UeZthDO4IX35zRhAE
+review:
+  thoroughness: medium
+  understanding: medium
+  rating: positive
+comment: |-
+  The crate implements a seemingly trivial thing: waiting for a child process
+  to finish, with a timeout.
+  
+  On Windows, this boils down to a single WinAPI call. I don't know much about
+  Windows, but the code looks okay to me. There is a minor issue of timeouts
+  being capped at ≈49 days, which I reported:
+  https://github.com/alexcrichton/wait-timeout/issues/23
+  
+  On Unix, the algorithm is much more involved. I understand it, and I believe
+  it to be correct.
+  
+  The crate calls into libc and WinAPI, so there are a bit of `unsafe` in here.
+  But it all looks all right to me.
+----- SIGN CREV PROOF -----
+8d16o2DS7ixSj17LRf53Q_3pBMNdHEeF9GZcD6kTVixsL8SmdyQmknSzWLLOVJG-VsOD6-UBxWqZL_XJz9kPAw
+----- END CREV PROOF -----
+
