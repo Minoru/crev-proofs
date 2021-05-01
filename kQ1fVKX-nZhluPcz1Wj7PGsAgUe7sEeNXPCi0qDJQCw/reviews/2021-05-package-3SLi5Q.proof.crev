@@ -65,3 +65,32 @@ comment: |-
 P2h-RLoEJ3aAF251Yv2iEQ8BBZbrPJjkHqckU3G4rTeU9EptnDAJkNDIdpBThe2ID5XLQmCYreRV83PPENRmAQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-05-01T21:38:49.101311519+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+package:
+  source: "https://crates.io"
+  name: version_check
+  version: 0.9.3
+  revision: 11875244ee2afacf47218e8f2e322a39d61dc5df
+  digest: FTNDtbLO_Iu-8IzvVk27NY4XrSWUnBLFMtYu-yvvXzU
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Runs `rustc --verbose --version` and parses the result. The binary to run can
+  be overridden via an environment variable `RUSTC`, which I do not consider as
+  a security risk since it's done at build time.
+  
+  There is no `unsafe`, and the code itself is mostly string mangling, so
+  I think this crate is okay.
+----- SIGN CREV PROOF -----
+rp_xIfjwhbLfPpW-Q504Qi3e_TRR9aqi46_SUZaT8SsL5Dbo3yxcJagWuw9vDl6mxhw5z4oHbuL0xZ7zPdg-CQ
+----- END CREV PROOF -----
+
