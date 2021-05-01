@@ -94,3 +94,31 @@ comment: |-
 rp_xIfjwhbLfPpW-Q504Qi3e_TRR9aqi46_SUZaT8SsL5Dbo3yxcJagWuw9vDl6mxhw5z4oHbuL0xZ7zPdg-CQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-05-01T21:46:13.505879843+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+package:
+  source: "https://crates.io"
+  name: rand_hc
+  version: 0.3.0
+  revision: 98e220c30234370fb04ba928799ebd9727fc049a
+  digest: LegMVL7a46xXLp3Y7JJXFSJamt8pJYh0fpnzD3ZXrD0
+review:
+  thoroughness: low
+  understanding: none
+  rating: neutral
+comment: |-
+  This is an implementation of an HC-128 RNG.
+  
+  The crate has no `unsafe`, and doesn't seem to do anything obviously fishy.
+  I didn't compare the algorithm to the relevant paper though, so I don't vouch
+  this is a faithful implementation.
+----- SIGN CREV PROOF -----
+utonGwsahBdJ7jWkaAKRFZ8wgyyLF4hskjmXVzzvRr5iL0bO8sGlv-T302jxv3kSMad8jgZGjjGs-_rsgXbQDA
+----- END CREV PROOF -----
+
