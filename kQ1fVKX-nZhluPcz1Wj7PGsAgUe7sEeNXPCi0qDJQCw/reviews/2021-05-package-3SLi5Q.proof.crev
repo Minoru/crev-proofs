@@ -34,3 +34,34 @@ comment: |-
 8d16o2DS7ixSj17LRf53Q_3pBMNdHEeF9GZcD6kTVixsL8SmdyQmknSzWLLOVJG-VsOD6-UBxWqZL_XJz9kPAw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-05-01T21:21:54.359889709+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+package:
+  source: "https://crates.io"
+  name: form_urlencoded
+  version: 1.0.1
+  revision: ea7a69e9d69248ca6f69a6294abed225754f92fe
+  digest: mzkjLTN9N_VAknFTYHrxK_pf7Zu3kLz-l4gIAyfBavQ
+review:
+  thoroughness: medium
+  understanding: low
+  rating: positive
+comment: |-
+  The crate encodes and decodes parameters of web forms.
+  
+  I verified that the decoding algorithm matches the spec. The encoding is more
+  involved, so I didn't verify that. Notably, the crate has no tests, so I only
+  trust to it be correct because it's written by the Servo team.
+  
+  There are two uses of `unsafe`, for performance (avoiding UTF-8 checks). Both
+  have comments explaining why they're okay, and they sound convincing enough.
+----- SIGN CREV PROOF -----
+P2h-RLoEJ3aAF251Yv2iEQ8BBZbrPJjkHqckU3G4rTeU9EptnDAJkNDIdpBThe2ID5XLQmCYreRV83PPENRmAQ
+----- END CREV PROOF -----
+
