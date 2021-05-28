@@ -122,3 +122,40 @@ comment: |-
 utonGwsahBdJ7jWkaAKRFZ8wgyyLF4hskjmXVzzvRr5iL0bO8sGlv-T302jxv3kSMad8jgZGjjGs-_rsgXbQDA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-05-28T17:20:26.550518199+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+package:
+  source: "https://crates.io"
+  name: libc
+  version: 0.2.95
+  revision: e25b7f3d9daab50872f1964b375b492d91085734
+  digest: Ji8ULQZr3h0k6Bp0Lt3MRGtJP7Gr46046U62qlLIO2I
+package-diff-base:
+  source: "https://crates.io"
+  name: libc
+  version: 0.2.94
+  revision: 50af40e2776fa3573bdf8071a3fe98cea41206da
+  digest: "-6MoxTjTCuJ6m8VuvNHgzgWzFtQdzZvwfwGykkAyVjY"
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Delta from 0.2.94 reveals nothing unusual: add new bindings, add new
+  constants, move some code around, and undo a macOS-related hack that
+  I committed earlier. Some FIXMEs were added too, but their comments don't
+  sound urgent.
+  
+  This looks fine. "Thoroughness" for this review is "low" because I didn't
+  manually check that the bindings match the headers — I trust that the CI
+  checked that already.
+----- SIGN CREV PROOF -----
+r760cv9hWnJxu4gtxEpyoy8sGwUsmxYyl8oQUcG2BirmrsqSNl2NbAmVlm18ZER6jXsGEqnuRjS2a9XGMPbFBw
+----- END CREV PROOF -----
+
