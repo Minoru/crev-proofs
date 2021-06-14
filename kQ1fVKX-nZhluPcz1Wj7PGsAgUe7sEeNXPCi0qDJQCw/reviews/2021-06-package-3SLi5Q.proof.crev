@@ -33,3 +33,38 @@ comment: |-
 in_P95_d0SvLBySeQALvNEO3kwCaLWBkT-D1ke6KT3VNk8GL0sOrC-1LZ4nr5dAwRqtGXC8-FnK8NbCDPHeeAg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-06-14T18:06:36.680394965+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+package:
+  source: "https://crates.io"
+  name: libc
+  version: 0.2.97
+  revision: 1c66799b7b8b82269c6bff0eab97d1a30e37fd36
+  digest: w5mpv1YL3fAOtg4neRm8vU396treMedLpZ4KE4oFqCY
+package-diff-base:
+  source: "https://crates.io"
+  name: libc
+  version: 0.2.96
+  revision: 3df6aaa801b7e5ba1f20314416706e5a32bcb2b9
+  digest: UtcIvb-rf6NECqrv6H-bMT2Tqn2J3pYsckFRX0GRmXo
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Compared to 0.2.95, there are two new functions (mallinfo2 and mstats) along
+  with their respective structs, and one new constant (AF_VSOCK).
+  
+  Nothing fancy. As usual, "thoroughness" for this review is "low" because
+  I didn't manually check that the bindings match the headers — I trust that
+  the CI checked that already.
+----- SIGN CREV PROOF -----
+L8FUzyA_ko8GDRp-cDY0d1xApQ6OJjsCPH5JQJxDP4jfiuqwTbBddcOldHmyT_aIk6_CikQRquttXUuvIc9CAA
+----- END CREV PROOF -----
+
