@@ -1,0 +1,34 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-07-08T13:41:28.480257703+03:00"
+from:
+  id-type: crev
+  id: kQ1fVKX-nZhluPcz1Wj7PGsAgUe7sEeNXPCi0qDJQCw
+  url: "https://github.com/Minoru/crev-proofs.git"
+package:
+  source: "https://crates.io"
+  name: libc
+  version: 0.2.98
+  revision: ba3416113ebef391f30748d09db210252cdef93c
+  digest: skPeghyH7wIJSRasa3DkQyTzlBS8Tc2fnnyP2N4gc_c
+package-diff-base:
+  source: "https://crates.io"
+  name: libc
+  version: 0.2.97
+  revision: 1c66799b7b8b82269c6bff0eab97d1a30e37fd36
+  digest: w5mpv1YL3fAOtg4neRm8vU396treMedLpZ4KE4oFqCY
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  The diff from 0.2.97 doesn't reveal anything suspicious.
+  
+  As usual, "thoroughness" for this review is "low" because I didn't manually
+  check that the bindings match the headers — I trust that the CI checked that
+  already.
+----- SIGN CREV PROOF -----
+HLp3ZnFtS4pUgnSTPF8peL5UL64Esok1vUhGoL8Hj7d42mAMT-bVQ_ohNwgeSWV6B8YLDZCC04-Ce9i3MSszAQ
+----- END CREV PROOF -----
+
